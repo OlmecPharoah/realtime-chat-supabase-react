@@ -1,0 +1,8 @@
+src/
+├── App.tsx             ← Wraps auth + dashboard logic
+├── Login.tsx           ← The login screen
+├── Dashboard.tsx       ← Your likes/leaderboard UI (can rename)
+├── lib/
+│   └── supabaseClient.ts ← Supabase config
+├── hooks/
+│   └── useLikes.ts     ← Handles likes API logic
